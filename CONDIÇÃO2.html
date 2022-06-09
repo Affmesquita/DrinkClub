@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <title>Drink Club</title>
+</head>
+<body>
+    <header id="info">
+        <p>Rua Belatris Almeida 89 // 9677-2105</p>
+    </header>
+    <section id="img">
+        <h1>Drink Club</h1>
+    </section>
+
+    <div id="menutitulo">
+        <h1>Menu</h1>
+        <p>Conheça todos os nossos drinks</p>
+        <br>
+        <p>
+            Cerveja.....................15,00 <br>
+            Blue Mary.....................18.00 <br>
+            Vinho Taça.....................12,00 <br>
+            Tequila.....................15,00 <br>
+            Vodka.....................15,00 <br>
+            Whiskey.....................15,00 <br>
+        </p>
+    </div>
+
+    <div class="sub">
+        <p>Novos drinks</p>
+        <p style="color: indianred ;">escolha e descubra</p>
+    </div>
+
+    <section id="menu">
+        <div id="gole">
+            <input type="radio" name="fav_language" id="tequila" value="tequila">
+            <label for="tequila"><strong>Bad Luck Tequila</strong></label><br>
+            <input type="radio" name="fav_language" id="vodka" value="vodka">
+            <label for="vodka"><strong>Ice Vantage Vodka</strong></label><br>
+            <input type="radio" name="fav_language" id="whiskey" value="whiskey">
+            <label for="radio"><strong>Big Bull Whiskey</strong></label>
+            <input type="button" value="Pedir" id="pedir" onclick="pedir()">
+        </div>
+    </section>
+    <section id="foto">
+        <img id="amostra" data-aos="zoom-in-down">
+    </section>
+    
+    <footer id="foot">
+    </footer>
+    <script src="java.js"></script>
+</body>
+</html>
